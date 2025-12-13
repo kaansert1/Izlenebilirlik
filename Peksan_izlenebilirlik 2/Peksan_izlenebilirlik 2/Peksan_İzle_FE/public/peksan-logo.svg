@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2E4BC6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A6CF7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer ellipse -->
+  <ellipse cx="200" cy="100" rx="190" ry="90" fill="none" stroke="white" stroke-width="8"/>
+  
+  <!-- Inner ellipse -->
+  <ellipse cx="200" cy="100" rx="180" ry="80" fill="url(#blueGradient)"/>
+  
+  <!-- Peksan text -->
+  <text x="200" y="115" font-family="serif" font-size="48" font-style="italic" fill="white" text-anchor="middle" font-weight="normal">
+    Peksan
+  </text>
+  
+  <!-- Registered trademark -->
+  <circle cx="350" cy="70" r="12" fill="none" stroke="white" stroke-width="2"/>
+  <text x="350" y="75" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">R</text>
+</svg>

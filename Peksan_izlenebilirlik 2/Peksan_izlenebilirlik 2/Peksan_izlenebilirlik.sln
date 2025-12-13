@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Peksan_İzle_BE", "Peksan_İzle_BE", "{96036CA3-236A-4F5E-47A0-72E8665075EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Peksan.Izle.API", "Peksan_İzle_BE\Peksan.Izle.API\Peksan.Izle.API.csproj", "{5D24D842-04DE-E714-22DE-DD8C3A72BC7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D24D842-04DE-E714-22DE-DD8C3A72BC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D24D842-04DE-E714-22DE-DD8C3A72BC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D24D842-04DE-E714-22DE-DD8C3A72BC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D24D842-04DE-E714-22DE-DD8C3A72BC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D24D842-04DE-E714-22DE-DD8C3A72BC7C} = {96036CA3-236A-4F5E-47A0-72E8665075EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DDCC6DD-2174-4F16-ACCD-E130A40554EB}
+	EndGlobalSection
+EndGlobal
